@@ -1,0 +1,11 @@
+
+.links {
+	font-size: 0.8rem;
+	a {
+		display: inline-block;
+		margin: 0 0.4rem;
+		&:hover {
+			border-bottom: 1px dashed #3a3a3a; 
+		}	
+	}
+}

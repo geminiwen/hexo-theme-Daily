@@ -1,0 +1,10 @@
+ <aside>
+    <h1 class="widget-title">links</h1>
+    <div class="links">
+      <% var links = config.links;
+  		 _.forEach(links, function(link){  %>
+		 	<a target="_blank" href="<%- link.link%>"><%- link.name %></a>
+  		 <%});
+       %>
+    </div>
+</aside>	

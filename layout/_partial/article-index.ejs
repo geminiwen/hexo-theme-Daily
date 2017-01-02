@@ -10,10 +10,10 @@
         <%- item.title || theme.default_post_title || "Untitled" %>  
       </a>
     </h1>
-    <% if (item.excerpt){ %>
+    <% if (item.excerpt || item.description){ %>
     <div class="entry-content">
       <p>
-        <%- item.excerpt %>
+        <%- item.excerpt || item.description %>
       </p>
     </div>
     <% } %>

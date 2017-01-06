@@ -64,6 +64,13 @@
   <!-- Custom CSS/Sass -->
   <%- css('css/style') %>
 
+  <% if (is_post()) { %>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/atom-one-dark.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  <% } %>
+
+
   <!----------------------------
   https://github.com/GallenHu/hexo-theme-Daily
 

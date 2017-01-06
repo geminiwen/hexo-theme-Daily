@@ -4,7 +4,6 @@
 code,
 pre {
     font-size: 0.8em;
-    background-color: #f8f8f8;
     font-family: 'Roboto Mono', Monaco, courier, monospace;
 }
 
@@ -17,6 +16,10 @@ code {
 pre {
   .line {
     min-height: 1em;
+  }
+  code {
+      background: none;
+      font-size: .9rem;
   }
 }
 
